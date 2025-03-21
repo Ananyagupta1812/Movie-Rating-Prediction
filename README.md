@@ -1,86 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Rating Prediction - README</title>
-</head>
-<body>
-    <h1>Movie Rating Prediction</h1>
-    <p>The Movie Rating Prediction project involves analyzing a dataset containing information about Indian movies. The dataset includes details like movie name, year, duration, genre, rating, votes, director, and three main actors. The data will be used to build a predictive model for movie ratings and extract valuable insights from the movie industry.</p>
-    
-    <h2>Table of Contents</h2>
-    <ul>
-        <li><a href="#business-understanding">Business Understanding</a></li>
-        <li><a href="#objectives">Objectives</a></li>
-        <li><a href="#data-understanding">Data Understanding</a></li>
-        <li><a href="#eda">Exploratory Data Analysis (EDA)</a></li>
-        <li><a href="#modeling">Modeling</a></li>
-        <li><a href="#recommendations">Recommendations</a></li>
-        <li><a href="#conclusion">Conclusion</a></li>
-        <li><a href="#next-steps">Next Steps</a></li>
-    </ul>
+# Movie Rating Prediction
 
-    <h2 id="business-understanding">Business Understanding</h2>
-    <p>The film industry relies on understanding the factors that influence movie success. Accurately predicting movie ratings can aid in decision-making, such as choosing the right actors, directors, and genres, as well as determining marketing strategies.</p>
+The Movie Rating Prediction project involves analyzing a dataset containing information about Indian movies. The dataset includes details like movie name, year, duration, genre, rating, votes, director, and three main actors. The data will be used to build a predictive model for movie ratings and extract valuable insights from the movie industry.
 
-    <h2 id="objectives">Objectives</h2>
-    <ul>
-        <li><strong>Develop a predictive model:</strong> Create a machine learning model to predict movie ratings.</li>
-        <li><strong>Identify influential factors:</strong> Determine which aspects impact movie ratings most.</li>
-        <li><strong>Provide actionable insights:</strong> Help stakeholders make informed production and marketing decisions.</li>
-    </ul>
+## Table of Contents
+- [Business Understanding](#business-understanding)
+- [Objectives](#objectives)
+- [Data Understanding](#data-understanding)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Modeling](#modeling)
+- [Recommendations](#recommendations)
+- [Conclusion](#conclusion)
+- [Next Steps](#next-steps)
 
-    <h2 id="data-understanding">Data Understanding</h2>
-    <p>The dataset includes the following features:</p>
-    <ul>
-        <li><strong>Name:</strong> Movie name</li>
-        <li><strong>Year:</strong> Release year</li>
-        <li><strong>Duration:</strong> Movie duration</li>
-        <li><strong>Genre:</strong> Movie genre</li>
-        <li><strong>Rating:</strong> IMDb rating</li>
-        <li><strong>Votes:</strong> Number of votes received</li>
-        <li><strong>Director:</strong> Movie director</li>
-        <li><strong>Actor 1, Actor 2, Actor 3:</strong> Main actors</li>
-    </ul>
+## Business Understanding
+The film industry relies on understanding the factors that influence movie success. Accurately predicting movie ratings can aid in decision-making, such as choosing the right actors, directors, and genres, as well as determining marketing strategies.
 
-    <h2 id="eda">Exploratory Data Analysis (EDA)</h2>
-    <p>EDA includes:</p>
-    <ul>
-        <li>Rating analysis</li>
-        <li>Top 10 directors with most movies</li>
-        <li>Top 10 actors with most movie appearances</li>
-        <li>Top 10 highest-rated movie genres</li>
-        <li>Duration vs. rating correlation</li>
-    </ul>
+## Objectives
+- **Develop a predictive model:** Create a machine learning model to predict movie ratings.
+- **Identify influential factors:** Determine which aspects impact movie ratings most.
+- **Provide actionable insights:** Help stakeholders make informed production and marketing decisions.
 
-    <h2 id="modeling">Modeling</h2>
-    <p>The following models were tested:</p>
-    <ul>
-        <li>Baseline Model: Linear Regression</li>
-        <li>Random Forest Model</li>
-        <li>Gradient Boosting Regressor</li>
-        <li>Hyperparameter tuning of Random Forest</li>
-    </ul>
-    <p>The tuned Random Forest model was chosen due to its balanced performance.</p>
+## Data Understanding
+The dataset includes the following features:
+- **Name:** Movie name
+- **Year:** Release year
+- **Duration:** Movie duration
+- **Genre:** Movie genre
+- **Rating:** IMDb rating
+- **Votes:** Number of votes received
+- **Director:** Movie director
+- **Actor 1, Actor 2, Actor 3:** Main actors
 
-    <h2 id="recommendations">Recommendations</h2>
-    <ul>
-        <li>Stay updated with industry trends.</li>
-        <li>Encourage audience reviews.</li>
-        <li>Optimize movie duration based on audience preferences.</li>
-        <li>Invest in highly-rated genres like History and Romance.</li>
-    </ul>
+## Exploratory Data Analysis (EDA)
+EDA includes:
+- Rating analysis
+- Top 10 directors with most movies
+- Top 10 actors with most movie appearances
+- Top 10 highest-rated movie genres
+- Duration vs. rating correlation
 
-    <h2 id="conclusion">Conclusion</h2>
-    <p>This project offers insights into movie rating prediction. The most influential factors identified are the year of release, number of votes, and movie duration.</p>
+## Modeling
+The following models were tested:
+- Baseline Model: Linear Regression
+- Random Forest Model
+- Gradient Boosting Regressor
+- Hyperparameter tuning of Random Forest
 
-    <h2 id="next-steps">Next Steps</h2>
-    <ul>
-        <li>Improve the model with advanced techniques.</li>
-        <li>Enhance feature engineering.</li>
-        <li>Analyze user reviews and sentiment.</li>
-        <li>Implement real-time data updates.</li>
-    </ul>
-</body>
-</html>
+The tuned Random Forest model was chosen due to its balanced performance.
+
+## Recommendations
+- Stay updated with industry trends.
+- Encourage audience reviews.
+- Optimize movie duration based on audience preferences.
+- Invest in highly-rated genres like History and Romance.
+
+## Conclusion
+This project offers insights into movie rating prediction. The most influential factors identified are the year of release, number of votes, and movie duration.
+
+## Next Steps
+- Improve the model with advanced techniques.
+- Enhance feature engineering.
+- Analyze user reviews and sentiment.
+- Implement real-time data updates.
